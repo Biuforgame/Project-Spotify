@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+#container-portadas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#instagram{
+    filter: invert(69%) sepia(0%) saturate(8%) hue-rotate(220deg) brightness(98%) contrast(93%);
+}
+
+#instagram:hover{
+    transition: all 1s ease;
+    cursor: pointer;
+    filter: invert(17%) sepia(78%) saturate(5789%) 
+    hue-rotate(322deg) brightness(84%) contrast(99%);
+    border: 2px solid aliceblue;
+}
+
+#discord{
+    filter: invert(69%) sepia(0%) saturate(8%) 
+    hue-rotate(220deg) brightness(98%) contrast(93%);
+}
+
+#discord:hover{
+    transition: all 1s ease;
+    cursor: pointer;
+    filter: invert(14%) sepia(9%) saturate(3647%) 
+    hue-rotate(188deg) brightness(98%) contrast(94%);
+    border: 2px solid aliceblue;
+}
+
+#facebook{
+    filter: invert(69%) sepia(0%) saturate(8%) 
+    hue-rotate(220deg) brightness(98%) contrast(93%);
+}
+
+#facebook:hover{
+    transition: all 1s ease;
+    cursor: pointer;
+    filter: invert(16%) sepia(93%) saturate(7286%) hue-rotate(244deg) brightness(95%) contrast(114%);
+    border: 2px solid aliceblue;
+}
+
+#twitter{
+    filter: invert(69%) sepia(0%) saturate(8%) 
+    hue-rotate(220deg) brightness(98%) contrast(93%);
+}
+
+#twitter:hover{
+    transition: all 1s ease;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+    filter: invert(54%) sepia(76%) saturate(2082%) 
+    hue-rotate(160deg) brightness(102%) contrast(107%);
+}
+
+img[src="twitter.png"],
+img[src="discord.png"],
+img[src="facebook.png"],
+img[src="instagram.png"]{
+    cursor: pointer;
+}
+
+#container-portadas img{
+    width: 200px;
+    padding: 0;
+    border: 0.9px solid grey;
+    /* box-shadow: 0px 0px 40px 1px rgba(255, 0, 0, 0.308); */
+}
+
+#container-portadas img:hover{
+    transition: all 1s ease;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0px 0px 40px 1px rgba(255, 0, 0, 0.308)
+}
+
+#Company, #comunities, #useful-liks, #Spotify-Plans{
+    font-size: large;
+    margin: 13px;
+    font-family: "Archivo", sans-serif;
+    text-align: left;
+}
+
+#Company:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    transition: all 1s ease;
+    font-size: 1rem;
+    padding: 4px;
+    color: #000;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#comunities:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    transition: all 1s ease;
+    font-size: 1rem;
+    padding: 4px;
+    color: #000;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#useful-liks:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    transition: all 1s ease;
+    font-size: 1rem;
+    padding: 4px;
+    color: #000;
+    border-radius: 10px;
+    font-size: large;
+} 
+
+div{
+    color: aliceblue;
+}
+
+#Spotify-Plans:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    transition: all 1s ease;
+    font-size: 1rem;
+    padding: 4px;
+    color: #000;
+    border-radius: 10px;
+    font-size: large;
+}
+
+a:hover{
+    color: #FF004D;
+    transition: all 1s ease;
+}
+
+#container-icons{
+    width: 20px;
+}
+
+img #discord, #facebook, #instagram, #twitter{
+    width: 20px;
+}
+
+a{
+    color: grey;
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#a, #b, #c, #d{
+    font-size: large;
+}
+
+#container-padre-firma{
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+}
+
+#container-hermano, #container-hijo{
+    margin-top: 3pc;
+    margin-bottom: 3pc;
+    margin-right: 0;
+}
+
+#container-hermano-icons{
+    display: flex;
+    margin: 14px;
+}
+
+#Arrow_forward_ios, #Arrow_Back_iOS_New{
+    margin-right: 40px;
+    background-color: #480217;
+    padding: 10px;
+    border-radius: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
